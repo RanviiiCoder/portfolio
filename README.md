@@ -2,7 +2,7 @@
 
 Welcome to the source code for my professional portfolio website. This single-page, high-performance web experience is designed to highlight my academic background, data science & machine learning experience, publications, and technical skills.
 
-Live Demo: [https://ranviiicoder.github.io/](https://ranviiicoder.github.io/) 
+Live Demo: [https://ranviiicoder.github.io/](https://ranviiicoder.github.io/portfolio/) 
 
 ---
 
