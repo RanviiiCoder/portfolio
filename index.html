@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ranveer Kumar Sharma | AI & Data Analytics Specialist</title>
-  <meta name="description" content="Portfolio of Ranveer Kumar Sharma, M.Sc. Artificial Intelligence & Data Analytics graduate. Specializing in Machine Learning, Deep Learning, Computer Vision, and Time-Series Forecasting.">
-  
+  <meta name="description"
+    content="Portfolio of Ranveer Kumar Sharma, M.Sc. Artificial Intelligence & Data Analytics graduate. Specializing in Machine Learning, Deep Learning, Computer Vision, and Time-Series Forecasting.">
+
   <!-- Preconnect and Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <!-- Floating Glow Blobs for Background Ambience -->
-  <div class="glow-bg glow-purple" aria-hidden="true"></div>
-  <div class="glow-bg glow-pink" aria-hidden="true"></div>
+  <!-- 3D Animated SaaS Background Canvas -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
 
   <!-- Header Navigation -->
   <header class="header" id="header">
@@ -25,9 +29,10 @@
       <a href="#hero" class="logo" id="nav-logo">
         <span class="logo-accent">R</span>K<span class="logo-dot">.</span>
       </a>
-      
+
       <!-- Mobile Nav Toggle Button -->
-      <button class="nav-toggle" id="nav-toggle-btn" aria-label="Toggle Menu" aria-controls="nav-menu" aria-expanded="false">
+      <button class="nav-toggle" id="nav-toggle-btn" aria-label="Toggle Menu" aria-controls="nav-menu"
+        aria-expanded="false">
         <span class="hamburger"></span>
       </button>
 
@@ -57,21 +62,37 @@
             Hi, I'm <span class="gradient-text">Ranveer Kumar Sharma</span>
           </h1>
           <p class="hero-subtitle">
-            M.Sc. AI Graduate building intelligent systems, predictive models, and real-time AI agents. Turning complex data into actionable digital solutions.
+            M.Sc. AI Graduate building intelligent systems, predictive models, and real-time AI agents. Turning complex
+            data into actionable digital solutions.
           </p>
           <div class="hero-cta">
             <a href="#contact" class="btn btn-primary" id="cta-contact">Get in Touch</a>
             <a href="#projects" class="btn btn-secondary" id="cta-projects">View Projects</a>
           </div>
           <div class="social-links">
-            <a href="https://linkedin.com/in/ranveer-s-1710nafy" target="_blank" rel="noopener" aria-label="LinkedIn Profile" class="social-icon" id="social-linkedin">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <a href="https://linkedin.com/in/ranveer-s-1710nafy" target="_blank" rel="noopener"
+              aria-label="LinkedIn Profile" class="social-icon" id="social-linkedin">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
             </a>
             <a href="mailto:ranviii2000@gmail.com" aria-label="Email Address" class="social-icon" id="social-email">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
             </a>
             <a href="tel:9234365451" aria-label="Phone Number" class="social-icon" id="social-phone">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
             </a>
           </div>
         </div>
@@ -91,10 +112,15 @@
         <div class="about-grid">
           <div class="about-text-content">
             <p class="about-paragraph">
-              I am an AI researcher, data scientist, and developer completing my M.Sc. in <strong>Artificial Intelligence & Data Analytics</strong> at Amity University. I have a foundational BCA background that anchors my deep analytical capabilities with solid software engineering principles.
+              I am an AI researcher, data scientist, and developer completing my M.Sc. in <strong>Artificial
+                Intelligence & Data Analytics</strong> at Amity University. I have a foundational BCA background that
+              anchors my deep analytical capabilities with solid software engineering principles.
             </p>
             <p class="about-paragraph">
-              My core interests sit at the intersection of deep learning architectures, time-series optimization, and computer vision systems. I thrive in design environments where AI technologies can be applied to solve critical edge-computing and optimization challenges, such as smart power grids and assistive communication tech.
+              My core interests sit at the intersection of deep learning architectures, time-series optimization, and
+              computer vision systems. I thrive in design environments where AI technologies can be applied to solve
+              critical edge-computing and optimization challenges, such as smart power grids and assistive communication
+              tech.
             </p>
             <div class="info-details">
               <div class="info-item">
@@ -115,7 +141,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="about-stats">
             <div class="stat-card">
               <div class="stat-num">8.47</div>
@@ -150,7 +176,8 @@
             </div>
             <p class="edu-school">Amity University, Noida</p>
             <ul class="edu-details">
-              <li><strong>Academic Track:</strong> 1st Sem: 7.84 SGPA | 2nd Sem: 8.10 CGPA | 3rd Sem: 8.15 CGPA | 4th Sem: 8.47 CGPA</li>
+              <li><strong>Academic Track:</strong> 1st Sem: 7.84 SGPA | 2nd Sem: 8.10 CGPA | 3rd Sem: 8.15 CGPA | 4th
+                Sem: 8.47 CGPA</li>
               <li>Focused on neural networks, natural language processing, timeseries models, and computer vision.</li>
             </ul>
           </div>
@@ -162,7 +189,8 @@
             <p class="edu-school">MMHAP University, Patna</p>
             <ul class="edu-details">
               <li><strong>Result:</strong> 77% Aggregate</li>
-              <li>Laid the foundation in programming, object-oriented concepts, relational databases, and data structures.</li>
+              <li>Laid the foundation in programming, object-oriented concepts, relational databases, and data
+                structures.</li>
             </ul>
           </div>
         </div>
@@ -174,10 +202,13 @@
       <div class="container">
         <h2 class="section-title">Technical Expertise</h2>
         <div class="skills-grid">
-          
+
           <div class="skills-category-card">
             <h3 class="skills-category-title">
-              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
               Programming & Scripting
             </h3>
             <div class="skills-list">
@@ -193,7 +224,14 @@
 
           <div class="skills-category-card">
             <h3 class="skills-category-title">
-              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                </path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
               AI/ML Frameworks
             </h3>
             <div class="skills-list">
@@ -210,7 +248,12 @@
 
           <div class="skills-category-card">
             <h3 class="skills-category-title">
-              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+              </svg>
               Data & Databases
             </h3>
             <div class="skills-list">
@@ -224,7 +267,12 @@
 
           <div class="skills-category-card">
             <h3 class="skills-category-title">
-              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
               Cloud, DevOps & Tools
             </h3>
             <div class="skills-list">
@@ -239,7 +287,12 @@
 
           <div class="skills-category-card">
             <h3 class="skills-category-title">
-              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
               BI & Visualization
             </h3>
             <div class="skills-list">
@@ -252,7 +305,12 @@
 
           <div class="skills-category-card">
             <h3 class="skills-category-title">
-              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="skill-cat-icon" width="20" height="20" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
               Core Concepts
             </h3>
             <div class="skills-list">
@@ -273,7 +331,7 @@
     <section class="projects-section scroll-reveal" id="projects">
       <div class="container">
         <h2 class="section-title">Projects Showcase</h2>
-        
+
         <!-- Category Filtering Controls -->
         <div class="filter-controls">
           <button class="filter-btn active" data-filter="all" id="filter-all">All Projects</button>
@@ -284,7 +342,7 @@
 
         <!-- Projects Grid -->
         <div class="projects-grid" id="projects-grid">
-          
+
           <!-- Project 1: Smart Grid -->
           <article class="project-card" data-category="sys">
             <div class="project-header">
@@ -293,13 +351,18 @@
             </div>
             <h3 class="project-title">Smart Grid Energy Optimization System</h3>
             <p class="project-description">
-              Led implementation of an analytics platform for smart energy grids integrated with simulation IoT pipelines.
+              Led implementation of an analytics platform for smart energy grids integrated with simulation IoT
+              pipelines.
             </p>
             <ul class="project-bullet-points">
-              <li>Built predictive model pipeline using <strong>Prophet</strong> achieving <strong>94% forecasting accuracy</strong>.</li>
-              <li>Developed <strong>anomaly detection system</strong> marking irregular consumption with 91% precision.</li>
-              <li>Simulated real-time energy demands by mapping 1M+ time-series records using <strong>InfluxDB</strong>.</li>
-              <li>Integrated interactive <strong>Streamlit dashboard</strong> showcasing load-balancing savings up to 23%.</li>
+              <li>Built predictive model pipeline using <strong>Prophet</strong> achieving <strong>94% forecasting
+                  accuracy</strong>.</li>
+              <li>Developed <strong>anomaly detection system</strong> marking irregular consumption with 91% precision.
+              </li>
+              <li>Simulated real-time energy demands by mapping 1M+ time-series records using <strong>InfluxDB</strong>.
+              </li>
+              <li>Integrated interactive <strong>Streamlit dashboard</strong> showcasing load-balancing savings up to
+                23%.</li>
             </ul>
             <div class="project-tags">
               <span class="tag">Prophet</span>
@@ -321,9 +384,12 @@
               Dual-focused project building algorithmic content matchers and structural satellite image analyzers.
             </p>
             <ul class="project-bullet-points">
-              <li>Trained movie recommender using <strong>MovieLens 1M</strong> with SVD, Neural Collaborative Filtering, and hybrid schemas.</li>
-              <li>Developed <strong>U-Net image segmentation</strong> models on FloodNet satellite imagery using ResNet and VGG encoders.</li>
-              <li>Optimized spatial classification utilizing customized Focal Loss, evaluated via <strong>IoU and Dice Coefficient</strong> metrics.</li>
+              <li>Trained movie recommender using <strong>MovieLens 1M</strong> with SVD, Neural Collaborative
+                Filtering, and hybrid schemas.</li>
+              <li>Developed <strong>U-Net image segmentation</strong> models on FloodNet satellite imagery using ResNet
+                and VGG encoders.</li>
+              <li>Optimized spatial classification utilizing customized Focal Loss, evaluated via <strong>IoU and Dice
+                  Coefficient</strong> metrics.</li>
               <li>Designed interactive Streamlit dashboards mapping real-time predictions and preference tracking.</li>
             </ul>
             <div class="project-tags">
@@ -346,7 +412,8 @@
               Intelligent aggregator recommending news articles using local LLMs based on textual profile affinity.
             </p>
             <ul class="project-bullet-points">
-              <li>Integrated semantic embeddings and generative parsing via local <strong>GPT4All</strong> and <strong>Llama 3.3B</strong> models.</li>
+              <li>Integrated semantic embeddings and generative parsing via local <strong>GPT4All</strong> and
+                <strong>Llama 3.3B</strong> models.</li>
               <li>Created live News API scrapers automatically categorizing and mapping unstructured text feeds.</li>
               <li>Applied advanced NLP pipelines for real-time user-interest profiles and recommendation updates.</li>
               <li>Built concurrent-safe serving layers powered by a Python backend and Streamlit UI.</li>
@@ -371,10 +438,12 @@
               A spatial-temporal classifier trained to distinguish synthetic manipulations in digital media.
             </p>
             <ul class="project-bullet-points">
-              <li>Constructed image input pipelines from 1,000+ real/fake video samples of the <strong>FaceForensics++</strong> dataset.</li>
+              <li>Constructed image input pipelines from 1,000+ real/fake video samples of the
+                <strong>FaceForensics++</strong> dataset.</li>
               <li>Engineered custom facial crop and extraction pipelines using <strong>OpenCV</strong>.</li>
               <li>Developed and trained deep <strong>CNN classifier achieving 92% classification accuracy</strong>.</li>
-              <li>Created UI allowing users to drag and drop assets to generate frame-by-frame authenticity visualizer charts.</li>
+              <li>Created UI allowing users to drag and drop assets to generate frame-by-frame authenticity visualizer
+                charts.</li>
             </ul>
             <div class="project-tags">
               <span class="tag">OpenCV</span>
@@ -400,7 +469,9 @@
           <h3 class="pub-title">AI-Enabled Communication Assistance for Hearing Impaired Individuals</h3>
           <p class="pub-journal">Published in IEEE Conference Proceedings | Indexed in IEEE Xplore</p>
           <p class="pub-abstract">
-            This research presents a novel Edge-AI communication assistant that fuses visual gesture inputs and audio signals to assist hearing-impaired individuals. By integrating Bhashini AI multilingual speech recognition APIs, the assistant maps real-time code-switched dialogues in noisy settings. 
+            This research presents a novel Edge-AI communication assistant that fuses visual gesture inputs and audio
+            signals to assist hearing-impaired individuals. By integrating Bhashini AI multilingual speech recognition
+            APIs, the assistant maps real-time code-switched dialogues in noisy settings.
           </p>
           <div class="pub-highlights">
             <div class="pub-highlight-item">
@@ -418,7 +489,7 @@
     <section class="experience-section scroll-reveal" id="experience">
       <div class="container">
         <h2 class="section-title">Professional Experience</h2>
-        
+
         <div class="timeline">
           <!-- Internship 1 -->
           <div class="timeline-item">
@@ -429,8 +500,10 @@
               <p class="company-name">Infotact Solutions (Remote)</p>
               <ul class="role-desc">
                 <li>Collaborated on MovieLens 1M matching services mapping SVD, NCF, and hybrid recommenders.</li>
-                <li>Trained CNN and U-Net models to conduct semantic segmentation of flooding regions on FloodNet satellite arrays.</li>
-                <li>Formulated model pipelines with custom focal loss, hyperparameter tuning, and Dice evaluation scoring.</li>
+                <li>Trained CNN and U-Net models to conduct semantic segmentation of flooding regions on FloodNet
+                  satellite arrays.</li>
+                <li>Formulated model pipelines with custom focal loss, hyperparameter tuning, and Dice evaluation
+                  scoring.</li>
                 <li>Conducted thorough EDA on spatial structures and raw time-series matrices.</li>
               </ul>
               <div class="timeline-tags">
@@ -460,7 +533,8 @@
                     <li>Breast Cancer Cell Classifier</li>
                   </ul>
                 </li>
-                <li>Orchestrated data cleaning, feature encoding, and plotted analytical dashboards using Seaborn and Pandas.</li>
+                <li>Orchestrated data cleaning, feature encoding, and plotted analytical dashboards using Seaborn and
+                  Pandas.</li>
               </ul>
               <div class="timeline-tags">
                 <span class="tag">scikit-learn</span>
@@ -480,41 +554,60 @@
       <div class="container">
         <h2 class="section-title">Certifications & Achievements</h2>
         <div class="certs-grid">
-          
+
           <div class="cert-card">
             <div class="cert-icon-wrapper" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
             </div>
             <h3 class="cert-title">Deep Learning Engineer: PyTorch</h3>
             <p class="cert-issuer">Simplilearn | 2025</p>
-            <p class="cert-desc">Advanced framework credentials covering recurrent networks, CNN architectures, PyTorch pipelines, and custom optimization algorithms.</p>
+            <p class="cert-desc">Advanced framework credentials covering recurrent networks, CNN architectures, PyTorch
+              pipelines, and custom optimization algorithms.</p>
           </div>
 
           <div class="cert-card">
             <div class="cert-icon-wrapper" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
             </div>
             <h3 class="cert-title">Deep Learning Practitioner</h3>
             <p class="cert-issuer">Simplilearn | 2025</p>
-            <p class="cert-desc">Core certificate focused on feedforward architectures, backpropagation mathematics, loss function configurations, and model regularizations.</p>
+            <p class="cert-desc">Core certificate focused on feedforward architectures, backpropagation mathematics,
+              loss function configurations, and model regularizations.</p>
           </div>
 
           <div class="cert-card">
             <div class="cert-icon-wrapper" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
             </div>
             <h3 class="cert-title">Smart India Hackathon 2025</h3>
             <p class="cert-issuer">Grand Finalist | GoI</p>
-            <p class="cert-desc">Qualified for the national grand finals, presenting scalable software prototypes for government-backed problem statements.</p>
+            <p class="cert-desc">Qualified for the national grand finals, presenting scalable software prototypes for
+              government-backed problem statements.</p>
           </div>
 
           <div class="cert-card">
             <div class="cert-icon-wrapper" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
             </div>
             <h3 class="cert-title">Academic Excellence Award</h3>
             <p class="cert-issuer">Amity University & BCA</p>
-            <p class="cert-desc">Recognized for consistently ranking among the top academic performers in both M.Sc. AI and BCA classes.</p>
+            <p class="cert-desc">Recognized for consistently ranking among the top academic performers in both M.Sc. AI
+              and BCA classes.</p>
           </div>
 
         </div>
@@ -526,27 +619,38 @@
       <div class="container">
         <h2 class="section-title">Get in Touch</h2>
         <div class="contact-grid">
-          
+
           <div class="contact-info">
             <h3 class="contact-info-title">Let's build something intelligent.</h3>
             <p class="contact-info-text">
-              I am open to discussions regarding full-time roles, internship opportunities, research collaborations, or custom data science contracts. Drop me a line!
+              I am open to discussions regarding full-time roles, internship opportunities, research collaborations, or
+              custom data science contracts. Drop me a line!
             </p>
-            
+
             <div class="contact-detail-list">
               <div class="contact-detail-item">
                 <div class="contact-detail-icon" aria-hidden="true">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
                 </div>
                 <div>
                   <span class="contact-detail-label">Email</span>
-                  <a href="mailto:ranviii2000@gmail.com" class="contact-detail-link" id="contact-mail-link">ranviii2000@gmail.com</a>
+                  <a href="mailto:ranviii2000@gmail.com" class="contact-detail-link"
+                    id="contact-mail-link">ranviii2000@gmail.com</a>
                 </div>
               </div>
 
               <div class="contact-detail-item">
                 <div class="contact-detail-icon" aria-hidden="true">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                  </svg>
                 </div>
                 <div>
                   <span class="contact-detail-label">Phone</span>
@@ -556,17 +660,27 @@
 
               <div class="contact-detail-item">
                 <div class="contact-detail-icon" aria-hidden="true">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
                 </div>
                 <div>
                   <span class="contact-detail-label">LinkedIn</span>
-                  <a href="https://linkedin.com/in/ranveer-s-1710nafy" target="_blank" rel="noopener" class="contact-detail-link" id="contact-linkedin-link">linkedin.com/in/ranveer-s-1710nafy</a>
+                  <a href="https://linkedin.com/in/ranveer-s-1710nafy" target="_blank" rel="noopener"
+                    class="contact-detail-link" id="contact-linkedin-link">linkedin.com/in/ranveer-s-1710nafy</a>
                 </div>
               </div>
 
               <div class="contact-detail-item">
                 <div class="contact-detail-icon" aria-hidden="true">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
                 </div>
                 <div>
                   <span class="contact-detail-label">Current Location</span>
@@ -595,7 +709,8 @@
               </div>
 
               <div class="form-group">
-                <textarea id="contact-message" name="message" class="form-control" required rows="5" placeholder=" "></textarea>
+                <textarea id="contact-message" name="message" class="form-control" required rows="5"
+                  placeholder=" "></textarea>
                 <label for="contact-message" class="form-label">Message</label>
               </div>
 
@@ -603,7 +718,7 @@
                 <span>Send Message</span>
                 <span class="btn-spinner" id="btn-spinner" aria-hidden="true"></span>
               </button>
-              
+
               <div class="form-status" id="form-status" aria-live="polite"></div>
             </form>
           </div>
@@ -624,6 +739,8 @@
     </div>
   </footer>
 
+  <script src="bg.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
